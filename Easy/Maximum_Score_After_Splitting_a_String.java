@@ -1,5 +1,6 @@
 /*Intuition
-    The goal is to split the binary string into two non-empty parts such that the sum of the number of 0s in the left part and the number of 1s in the right part is maximized. As we move the split point, we adjust the counts of 0s in the left and 1s in the right dynamically to calculate the score at each split.
+    The goal is to split the binary string into two non-empty parts such that the sum of the number of 0s in the left part and the number of 1s in the right part is maximized. 
+    As we move the split point, we adjust the counts of 0s in the left and 1s in the right dynamically to calculate the score at each split.
 
 Approach
     Count the total number of 1s in the string (count1).
