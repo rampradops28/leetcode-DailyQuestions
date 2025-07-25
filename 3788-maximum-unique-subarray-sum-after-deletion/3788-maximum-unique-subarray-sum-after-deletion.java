@@ -1,4 +1,11 @@
 class Solution {
+
+    // All values are negative → best to choose the largest single number.
+
+    // All elements are same → pick one of them.
+
+    // All elements are unique → take the entire array.
+
     public int maxSum(int[] nums) {
 
         // Step 1: Initialize max as the smallest integer possible
